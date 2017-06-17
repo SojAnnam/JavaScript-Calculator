@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+    </style>
+    <link rel="stylesheet" href="calc2.css" />
+    <script src="calc2.js"></script>
+</head>
+
+<body>
+    <div id="calculator">
+        <div class="display"><input type=text id="display"></div>
+        <div id="operators" style="text-align: center">
+            <input type=button class=button value="+" onclick="math('+')">
+            <input type=button class=button value="-" onclick="math('-')">
+            <input type=button class=button value="*" onclick="math('*')">
+            <input type=button class=button value="/" onclick="math('/')">
+            <input type=button class=button value="%" onclick="math('%')">
+            <input type=button class=button value="." onclick="math('.')">
+        </div>
+        <div id="number">
+            <input type=button class=button value="9" onclick="math('9')">
+            <input type=button class=button value="8" onclick="math('8')">
+            <input type=button class=button value="7" onclick="math('7')">
+            <input type=button class=button value="6" onclick="math('6')">
+            <input type=button class=button value="5" onclick="math('5')">
+            <input type=button class=button value="4" onclick="math('4')">
+            <input type=button class=button value="3" onclick="math('3')">
+            <input type=button class=button value="2" onclick="math('2')">
+            <input type=button class=button value="1" onclick="math('1')">
+            <input type=button class=button value="C" onclick="c('')">
+            <input type=button class=button value="0" onclick="math('0')">
+            <input type=button class=button value="=" onclick="equal('=')">
+        </div>
+    </div>
+</body>
+
+</html>

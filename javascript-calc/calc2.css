@@ -1,0 +1,65 @@
+body, div, input {
+    padding:0;
+    margin:0;
+    font-family:'Black Ops One', cursive;
+}
+
+#calculator {
+	background-color: #999;
+	width: 310px;
+	height: 460px;
+	border: 3px black solid;
+	margin: 10px auto;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#display{
+    height: 70px;
+    width: 300px;
+    margin:auto;
+    background-color:white;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 30px;
+    padding: 0 5px;
+}
+
+#numbers, #operators {
+	margin: auto;	
+}
+
+#operators input {
+	
+	width: 39px;
+	height: 39px;
+	float: left;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	padding: 2px;
+	margin: 5px 6px;
+	background: yellow;
+	border-radius: 10px;
+}
+
+#number input {
+	display: block;
+	width: 70px;
+	height: 70px;
+	float: left;
+	color: black;
+	text-align: center;
+	font-size: 32pt;
+	padding: 10px;
+	margin: 5px 15px;
+	background:lightgrey;
+	border-radius: 10px;
+}
+#number input:active{
+    background:grey;
+}
+
+#operators input:active {
+    background:orange;
+}
