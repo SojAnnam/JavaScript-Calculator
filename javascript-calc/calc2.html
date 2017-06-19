@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <title>JavaScript Calculator</title>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
     </style>
@@ -11,7 +12,10 @@
 
 <body>
     <div id="calculator">
-        <div class="display"><input type=text id="display"></div>
+        <div>
+            <h1>JavaScript Calculator</h1>
+        </div>
+        <div class="display"><input type=text id="display" placeholder="0"></div>
         <div id="operators" style="text-align: center">
             <input type=button class=button value="+" onclick="math('+')">
             <input type=button class=button value="-" onclick="math('-')">

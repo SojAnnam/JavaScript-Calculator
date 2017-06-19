@@ -7,11 +7,15 @@ body, div, a {
 #calculator {
 	background-color: #999;
 	width: 310px;
-	height: 460px;
+	height: 520px;
 	border: 3px black solid;
 	margin: 10px auto;
 	padding: 5px;
 	border-radius: 10px;
+}
+h1{
+	font-size:25px;
+	text-align: center;
 }
 
 #total {
